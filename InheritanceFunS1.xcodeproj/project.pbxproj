@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4574B8C725191930007D5FEE /* Lawyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574B8C625191930007D5FEE /* Lawyer.swift */; };
+		4574B8CB25191988007D5FEE /* Accountant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574B8CA25191988007D5FEE /* Accountant.swift */; };
 		45FA88202515082F0021A6FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA881F2515082F0021A6FE /* main.swift */; };
 		45FA8835251523DE0021A6FE /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA8834251523DE0021A6FE /* Employee.swift */; };
 		45FA8837251525730021A6FE /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA8836251525730021A6FE /* Programmer.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4574B8C625191930007D5FEE /* Lawyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lawyer.swift; sourceTree = "<group>"; };
+		4574B8CA25191988007D5FEE /* Accountant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accountant.swift; sourceTree = "<group>"; };
 		45FA881C2515082F0021A6FE /* InheritanceFunS1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InheritanceFunS1; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FA881F2515082F0021A6FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		45FA8834251523DE0021A6FE /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				45FA881F2515082F0021A6FE /* main.swift */,
 				45FA8834251523DE0021A6FE /* Employee.swift */,
 				45FA8836251525730021A6FE /* Programmer.swift */,
+				4574B8C625191930007D5FEE /* Lawyer.swift */,
+				4574B8CA25191988007D5FEE /* Accountant.swift */,
 			);
 			path = InheritanceFunS1;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 				45FA88202515082F0021A6FE /* main.swift in Sources */,
 				45FA8837251525730021A6FE /* Programmer.swift in Sources */,
 				45FA8835251523DE0021A6FE /* Employee.swift in Sources */,
+				4574B8CB25191988007D5FEE /* Accountant.swift in Sources */,
+				4574B8C725191930007D5FEE /* Lawyer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

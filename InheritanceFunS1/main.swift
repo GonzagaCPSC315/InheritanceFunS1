@@ -39,10 +39,30 @@ func employeeTester() {
     // lets have an array of Employee references
     var employees: [Employee] = []
     employees.append(Programmer(name: "Spike the Bulldog", busPass: false))
+    employees.append(Lawyer(name: "Kenny Dewitt", stockOptions: 10))
+    employees.append(Lawyer(name: "Willie Makit", stockOptions: 100))
+    employees.append(Accountant(name: "Hal E. Luya", parkingAllowance: 17.00))
     
+    for emp in employees {
+        // polymorphism example
+        // polymorphism: "same code, different behavior"
+        // emp is a general Employee reference
+        // we can call raise(), because all Employees have a raise method
+        // at runtime, different raise() methods will execute
+        // depending on what object emp points to (Programmer, Lawyer, Accountant object)
+        print(emp)
+        emp.raise()
+    }
+    print("After raising...")
     for emp in employees {
         print(emp)
     }
+    
+    // whats left for swift crash course (later)
+    // guard let
+    // optional chaining and nil coalescing operator
+    // handling errors
+    // closures
     
 }
 
